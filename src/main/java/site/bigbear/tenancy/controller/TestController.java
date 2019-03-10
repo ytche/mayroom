@@ -2,10 +2,16 @@ package site.bigbear.tenancy.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import site.bigbear.tenancy.vo.Message;
+
+import java.util.List;
 
 /**
- * controller基类
  * @author cheyantao
  */
-public class BaseController {
+@Controller
+@RequestMapping("/api/v1/test")
+public class TestController {
+
+
 }

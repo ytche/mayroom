@@ -5,5 +5,8 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import site.bigbear.tenancy.po.BaseEntity;
 import site.bigbear.tenancy.service.BaseCrudService;
 
+/**
+ * @author cheyantao
+ */
 public class BaseCrudServiceImpl<T extends BaseEntity,M extends BaseMapper<T>> extends ServiceImpl<M,T> implements BaseCrudService<T> {
 }
